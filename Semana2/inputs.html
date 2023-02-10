@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1>Formularios</h1>
+
+        <!--sirve para crear formularios-->
+        <form>
+            <!--los imput tienen tipos, por defecto son de texto pero hay muchos-->
+            <p>
+                <input type="text" name="name" placeholder="ingresa tu nombre" autocomplete="off" required>
+            </p>
+
+            <p>
+                <input type="email" name="email" placeholder="ingresa tu correo">
+            </p>
+
+            <p>
+                <input type="password" name="password" placeholder="ingresa una cotraseña segura">
+            </p>
+
+            <p>
+                <!--al usar accept pues poner
+                video/*
+                audio/*
+                pdf/*
+                mp3/*
+                image/*-->
+                <input type="file" accept="image/*" name="image">
+            </p>
+
+            <p>
+                <input type="number" name="number" placeholder="escribe un numero">
+            </p>
+
+            <p>
+                <input type="date" name="date">
+            </p>
+
+            <p>
+                <input type="time" name="time">
+            </p>
+
+            <p>
+                <input type="datetime-local" name="date_time">
+            </p>
+
+            <p>
+                <input type="checkbox" name="terms"> Acepta terminos y condiciones
+            </p>
+
+            <p>
+            <h4>Escoge una opcion</h4>
+            </p>
+            <p>
+                <input type="radio" name="option"> option 1
+            </p>
+            <p>
+                <input type="radio" name="option"> option 2
+            </p>
+            <p>
+                <input type="radio" name="option" checked> option 3
+            </p>
+            <p>
+                <input type="color" name="color">
+            </p>
+            <p>
+                <button type="submit">enviar datos</button>
+            </p>
+
+
+        </form>
+    </section>
+</body>
+
+</html>
