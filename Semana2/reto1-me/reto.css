@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #D3ECF7;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    text-align: center;
+    border-radius: 16px;
+
+}
+
+img {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+p {
+    margin-bottom: 40px !important;
+    color: hsl(220, 15%, 55%);
+}
+
+.align-text {
+    width: 290px;
+    margin: auto;
+    margin-top: 20px;
+}
+h3 {
+    font-size: 25px;
+}

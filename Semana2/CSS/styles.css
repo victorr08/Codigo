@@ -1,0 +1,38 @@
+body {
+    font-family: arial;
+}
+
+input {
+}
+
+/*Los id se usan en casos especificos donde queremos cambiar estilos
+     id=#id*/
+
+#boton-enviar {
+    background-color: #982F2F;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.form-imput {
+    border-radius: 10px;
+    border: solid 0.5px gray;
+    width: 250px;
+    padding: 5px;
+}
+
+.width-form {
+    width: 180px;
+    padding: 5px;
+}
+
+/*cuando ponemos el mouse sobre el elemento este tiene la propiedad :hover*/
+#boton-enviar:hover {
+    background-color: #F14646;
+
+}
